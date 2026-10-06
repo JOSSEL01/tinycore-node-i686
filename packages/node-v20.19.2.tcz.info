@@ -1,0 +1,11 @@
+Title:          node.tcz
+Description:    Node.js JavaScript runtime (v20.19.2)
+Version:        20.19.2
+Author:         OpenJS Foundation
+Original-site:  https://nodejs.org
+Copying-policy: MIT
+Size:           36mb
+Extension_by:   Jose Andres Mamani Mollericona
+Comments:       Compilado para i686 desde Fedora 43
+Change-log:     Compilado manualmente
+Current:        2026-10-05
