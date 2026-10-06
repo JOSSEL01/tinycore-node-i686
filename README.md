@@ -54,10 +54,15 @@ Desde la terminal de tu Tiny Core, ejecuta estos comandos:
 wget https://github.com/JOSSEL01/tinycore-node-i686/raw/main/packages/node-v20.19.2.tcz
 
 # Mover a la carpeta de extensiones
-sudo mv node-v20.19.2.tcz /etc/sysconfig/tcedir/optional/
+sudo mv node-v20.19.2.tcz /mnt/sda(_)/tce/optional/
 
 # Instalar
 tce-load -i node-v20.19.2
+
+# Colocar en Onboot
+nano /etc/sysconfig/tcedir/onboot.lst
+
+Ir hasta la parte final del archivo y poner node-v20.19.2.tcz y con las teclas ctrl + o luego enter luego ctrl + x y ya estaria
 
 # Verificar
 node --version
