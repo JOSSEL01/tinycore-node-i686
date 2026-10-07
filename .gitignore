@@ -1,4 +1,11 @@
+# Archivos de compilación
 node-build/
-node_modules/
 *.tar.xz
+*.tar.gz
 out/
+
+# Archivos temporales
+*.o
+*.a
+*.so
+*.tmp
